@@ -1,0 +1,30 @@
+<div class="container">
+  <form  (ngSubmit)="cardDetails()">
+    <div class="mb-3">
+      <label for="exampleInput1" class="form-label">Username</label>
+      <input type="text" class="form-control" id="exampleInput1" aria-describedby="emailHelp" formControlName="name">
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInput2" class="form-label">Card last four digit</label>
+      <input type="text" class="form-control" id="exampleInput2" aria-describedby="emailHelp"
+      formControlName="digit">
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInput3" class="form-label">Valid from</label>
+      <input type="text" class="form-control" id="exampleInput3" aria-describedby="emailHelp"
+      formControlName="from">
+
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInput4" class="form-label">Valid thru</label>
+      <input type="text" class="form-control" id="exampleInput4" aria-describedby="emailHelp"
+      formControlName="to">
+
+    </div>
+    <button id="button" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+

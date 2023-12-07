@@ -1,0 +1,24 @@
+.card{
+width: 400px;
+height:250px;
+margin: 5px;
+}
+#card1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(src/assets/blue.jpg);
+}
+#card2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(src/assets/red.jpg);
+}
+#card3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(src/assets/purple.jpg);
+}
+.container{
+  display: flex;
+}
+
