@@ -1,13 +1,81 @@
-
 <h1>card Sample</h1>
 
-<div class="container">
-  <div class="card" id="card1">
-   
+<div class="container" *ngFor="let new of newData">
+
+   <!-- card number 1 -->
+  <div class="card" id="card1" >
+    <h4>State Bank of India</h4>
+    <h4>1234 5678 1234 {{new.digit}}</h4>
+    <div class="box">
+      <div class="down">
+        <p>Candidate Name</p>
+        <h5>{{new.name}}</h5>
+      </div>
+      <div class="down">
+        <p>valid from</p>
+        <h5>
+          {{new.from}}
+        </h5>
+      </div>
+
+      <div class="down">
+        <p>valid thru</p>
+        <h5>
+          {{new.to}}
+        </h5>
+      </div>
+    </div>
   </div>
+
+
+   <!-- card number 2 -->
   <div class="card" id="card2">
+    <h4>State Bank of India</h4>
+    <h4>1234 5678 1234 {{new.digit}}</h4>
+    <div class="box">
+      <div class="down">
+        <p>Candidate Name</p>
+        <h5>{{new.name}}</h5>
+      </div>
+      <div class="down">
+        <p>valid from</p>
+        <h5>
+          {{new.from}}
+        </h5>
+      </div>
+
+      <div class="down">
+        <p>valid thru</p>
+        <h5>
+          {{new.to}}
+        </h5>
+      </div>
+    </div>
   </div>
+
+  <!-- card number 3 -->
   <div class="card" id="card3">
+    <h4>State Bank of India</h4>
+    <h4>1234 5678 1234 {{new.digit}}</h4>
+    <div class="box">
+      <div class="down">
+        <p>Candidate Name</p>
+        <h5>{{new.name}}</h5>
+      </div>
+      <div class="down">
+        <p>valid from</p>
+        <h5>
+          {{new.from}}
+        </h5>
+      </div>
+
+      <div class="down">
+        <p>valid thru</p>
+        <h5>
+          {{new.to}}
+        </h5>
+      </div>
+    </div>
   </div>
 
 </div>

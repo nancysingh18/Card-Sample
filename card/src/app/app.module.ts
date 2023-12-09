@@ -7,7 +7,7 @@ import { CardSampleComponent } from './components/card-sample/card-sample.compon
 import { ReactiveFormsModule } from '@angular/forms';
 import { ServiceService } from './components/service/service.service';
 import { CardFormComponent } from './components/card-form/card-form.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +18,7 @@ import { CardFormComponent } from './components/card-form/card-form.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    HttpClientModule
 
 
 

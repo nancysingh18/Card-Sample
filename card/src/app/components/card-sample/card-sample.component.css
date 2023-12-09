@@ -3,22 +3,39 @@ width: 400px;
 height:250px;
 margin: 5px;
 }
+h4{
+  padding: 20px;
+}
 #card1{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(src/assets/blue.jpg);
+  color: antiquewhite;
+
 }
 #card2{
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(src/assets/red.jpg);
+  background-image: url(src/assets/brown.jpg);
+  color:goldenrod
 }
 #card3{
+  color:antiquewhite;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(src/assets/purple.jpg);
 }
 .container{
   display: flex;
+
+}
+.box
+{
+  display: flex;
+  margin-left: 8px;
+
+}
+.down{
+  margin: 10px;
 }
 
